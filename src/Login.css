@@ -64,8 +64,8 @@
 }
 
 .login__signInButton {
-    width: 300px;
-    min-height: 35px;
+    width: 293px;
+    min-height: 40px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
