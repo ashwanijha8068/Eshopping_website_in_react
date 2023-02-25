@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "./Product";
+import nt from './nt.jpg'
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
                         title="My Inventions, Autobiography of Nikola Tesla"
                         price={97}
                         rating={5}
-                        image="https://d1b14unh5d6w7g.cloudfront.net/1452880956.01.S001.LXXXXXXX.jpg?Expires=1677084905&Signature=cgzTxbaE9nt2tSnzlLAa3ww-hw-DsTqqF5Occe9x7MOB0FpVVXX3c14hrfRczMzpqzwnDH8oOYTYBUCQ3-VpofepIlS9ts7f1Ko107hpMXjhbdEpsP-JtW-qjARtnnPbC8vDMHwuhEeTERFpNsSlQgLGbcWrjxXmRNv7--xgBEo_&Key-Pair-Id=APKAIUO27P366FGALUMQ"
+                        image={nt}
                     />
                     <Product
                         id="49538094"
@@ -23,7 +24,17 @@ function Home() {
                         price={2390}
                         rating={4}
                         image="https://m.media-amazon.com/images/I/51vfBvelOwL._SL1000_.jpg"
+
                     />
+                     <Product
+                        id="49538094"
+                        title="Apple 2020 MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD"
+                        price={233453}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg"
+
+                    />
+                    
                 </div>
 
                 <div className="home__row">
@@ -57,6 +68,20 @@ function Home() {
                         price={119}
                         rating={4}
                         image="https://m.media-amazon.com/images/I/51rNRT66cuL._SY300_SX300_QL70_FMwebp_.jpg"
+                    />
+                     <Product
+                        id="90829332"
+                        title="JBL Wave Beam in-Ear Earbuds (TWS) with Mic, App for Customized Extra Bass "
+                        price={119}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/61p1-gm4RwL._SL1500_.jpg"
+                    />
+                     <Product
+                        id="90829332"
+                        title="Himalayan Natives 100% Natural Premium California Almonds | Premium Badam "
+                        price={119}
+                        rating={4}
+                        image="https://m.media-amazon.com/images/I/61sTXuH2hRL._SL1500_.jpg"
                     />
                 </div>
             </div>   

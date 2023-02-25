@@ -61,7 +61,7 @@ function Login() {
                     By signing-in you agree to Our Biased Online Policies and Conditions.
                 </p>
 
-                <button className='login__registerButton' onClick={register}>Create your Eshop Account</button>
+                <button className='login__registerButton' onClick={register}><p className="om">Create your Eshop Account</p></button>
             </div>
         </div>
     )
