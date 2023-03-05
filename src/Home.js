@@ -2,8 +2,10 @@ import React from "react";
 import "./Home.css";
 import Product from "./Product";
 import nt from './nt.jpg'
+ 
 
 function Home() {
+    
     return (
         <div className="home">
             <div className="home__container">
@@ -72,14 +74,14 @@ function Home() {
                      <Product
                         id="90829332"
                         title="JBL Wave Beam in-Ear Earbuds (TWS) with Mic, App for Customized Extra Bass "
-                        price={119}
+                        price={399}
                         rating={4}
                         image="https://m.media-amazon.com/images/I/61p1-gm4RwL._SL1500_.jpg"
                     />
                      <Product
                         id="90829332"
                         title="Himalayan Natives 100% Natural Premium California Almonds | Premium Badam "
-                        price={119}
+                        price={456}
                         rating={4}
                         image="https://m.media-amazon.com/images/I/61sTXuH2hRL._SL1500_.jpg"
                     />
